@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!----------- about section------------>
+        <section id="about">
+            <h1><u>ABOUT ME</u></h1>
+            <section id="content">
+
+            <p><b>M</b>y name is Love gupta. And I belongs to Kanpur, Uttar Pradesh India. I did my bechlor in computer Application from <em><b>college of Management Studies,Kanpur</b></em> in 2022. And I also completed <strong>master diploma in computer Information and Management</strong> in 2017. Currently I am learning webdevelopment and dsa in <b>Acciojob</b>. I have keen interest in webdevelopment and dsa.In My college I made some good project in web development. I like to contribute in open source. I have also done one internship in web development at LeurerTech software solutions, Banglore remotely. Apart from this I have also done 2 internship in content writing. I am self motivated ,hardworking , fast learner.My hobbies are watching Anime, spending time in nature , reading tech blogs. I want to become good web developer and also blockchain developer.</p>
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/portrait-casual-guy-posing-studio_176420-28907.jpg?w=2000" alt="">
+            </div>
+        </section>
+        </section>
+
+        <!---------contact section -------------->
+        <section id="contact">
+            <h1><u>CONTACT ME</u></h1>
+
+        <section id="content">
+            <section class="contact-Img">
+                <img src="https://img.freepik.com/free-vector/organic-flat-man-customer-support_23-2148893295.jpg?size=626&ext=jpg" alt="contact_image">
+            </section>
+
+            <form>
+        
+            <section >
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </section>
+
+
+            <section>
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone" placeholder="Phone No" pattern="[0-9]{10}" required>
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <br><textarea name="msg" id="message" cols="35" rows="6"></textarea>
+            </section>
+
+
+            <section>
+                <button type="submit" value="Submit">Contact</button>
+                <button type="reset" value="Reset">Reset</button>
+            </section>
+              </form>
+        </section>
+        </section>
+
+         <!---------project section -------------->
+        <section id="projects">
+                <h1><u>PROJECTS</u></h1>
+                <table cellspacing="0">
+         <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>1</td>
+                <td>MyMoviesApp</td>
+                <td>This is movies website where you can search movies ,cartoons anything you wanna search.</td>
+                <td><a href="#" target="_blank">MyMoviesApp</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>currencyConverter</td>
+                <td>you can convert any currency from one currency to another currency</td>
+                <td><a href="#" target="_blank">currencyConverter</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Social proof section</td>
+                <td>This is a Social proof section where anyone(client) can check your proof of work with client's reviews.</td>
+                <td><a href="#" target="_blank">Social-proof-section</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Product preview card component</td>
+                <td>This is simple layout of Product preview card</td>
+                <td><a href="#">product-preview-card-component</a></td>
+            </tr>
+         </tbody>
+            </table>
+        </section>
+    </main>
+         <!---------social section -------------->
+         <footer>
+
+       
+        <section id="connect" class="social">
+         <h1><u>Connect With Me</u></h1>
+         <section id="links">
+         <section id="github">
+           <a href="https://github.com/Lovegupta112" target="_blank"><h3>Github</h3>
+           <img src="images/icons8-github-90.png" alt="github_image">
+        </a>
+         </section>
+         <section id="linkedIn">
+           <a href="https://www.linkedin.com/in/guptalove/" target="_blank"> <h3>LinkedIn</h3>
+                <img src="images/icons8-linkedin-96.png" alt="linkedin_image">
+            </a>
+           
+         </section>
+         <section id="twitter">
+        <a href="https://twitter.com/MeLovegupta" target="_blank">
+            <h3>Twitter</h3>
+                <img src="images/icons8-twitter-squared-96.png" alt="Twitter_image">
+            </a>
+           
+         </section>
+        </section>
+        </section>
+    </footer>
+</body>
+</html>
